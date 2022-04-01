@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>The Instagram Photo Feed (with Bootstrap)</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/a78644fcd4.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="post.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" id="nav">
+        <div class="container">
+            <a class="navbar-brand" href="#"><i class="fa-brands fa-instagram"></i>Instagram</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-success" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            Create a new post
+                        </button>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-gear"></i>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Log Out</a></li>
+                        </ul>
+                    </li>
+            </div>
+        </div>
+    </nav>
+    <div class="row g-0" >
+        <div class="col-12 mx-auto text-center" style="width: 100%; background-color: white;">
+            <a class="btn btn-light" href="grid1.html" role="button"><i class="fa-solid fa-table-cells" id="botonlink"></i></a><a class="btn btn-secondary" href="post2.html" role="button"><i class="fa-solid fa-square " id="botonlink"></i></a>
+        </div>
+    </div>
+        <div class="bodycar col-12 " style="background-color: rgb(230, 215, 215); width: 200px; color: rgb(230, 215, 215);" >
+            dsads
+        </div>    
+        <div class="card col-4 mx-auto row-cols " style="padding: 0%;">
+            <div class="row fs-5 g-0" >
+                <div class="col-9" style="padding-left: 5px;">Mi First Photo</div>
+                <div class="col-3 text-center" id="muted">12/14</div>
+            </div>
+            <img src="https://picsum.photos/800/800" class="img-fluid " alt="..."" class="card-img-top" alt="...">
+            <div class="card-footer">
+                <div class="col-12">
+                    <b>23 likes</b>
+                    <p class="col-12" id="posttext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et </p>
+                <div class="row col-12 g-1 h-25" style="height: auto;">
+                    <i class="fa-regular fa-heart col-1 text-start"></i><p class="col-10" id="muted">comment...</p><i class="fa-solid fa-ellipsis-vertical col-1 text-end"></i>
+                </div>
+            </div>   
+        </div>
+        <div class="bodycar col-12 " style="background-color: rgb(230, 215, 215); width: 100%; color: rgb(230, 215, 215)" >
+            dsads
+        </div>    
+        <div class="row"></div>
+        <div class="bodycar col-12" style="background-color: rgb(255, 255, 255); width: 100%;" >
+            <div class="container" style="padding: 0px; border-top: 10px;">
+                <div class="row fs-5">
+                  <div class="col-6 col-sm-4">Mi First Photo</div>
+                  <div class="col-6 col-sm-4 ms-auto muted text-end" style="">12/14</div>
+        </div>
+        <div class="row">
+            <img src="https://picsum.photos/800/800" class="img-fluid " alt="..."" class="card-img-top" alt="..." style="padding: 0px;">
+        </div>
+        <div class="col-12 text-start " style="padding: 5px;">
+            <b>23 likes</b>
+            <p class="col-12 text-start id="posttext" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et </p>
+        <div class="row col-12 g-1 h-25" style="height: auto;">
+            <i class="fa-regular fa-heart col-1 text-start"></i><p class="col-10 text-start" id="muted">comment...</p><i class="fa-solid fa-ellipsis-vertical col-1 text-end" style="padding-right: 5px;"></i>
+        </div>
+        <div class="bodycar col-12 w-1000 " style="background-color: rgb(230, 215, 215); width: 100%; color: rgb(230, 215, 215); z-index: 3;" >
+            dsads
+        </div>    
+        <div class="bodycar col-12" style="background-color: rgb(255, 255, 255); width: 100%;" >
+            <div class="container" style="border-top: 10px; padding: 0px;">
+                <div class="row fs-5">
+                  <div class="col-6 text-start">Mi First Photo</div>
+                  <div class="col-6 col-sm-4 ms-auto muted text-end" style="">12/14</div>
+        </div>
+        <div class="row">
+            <img src="https://picsum.photos/800/800" class="img-fluid " alt="..."" class="card-img-top" alt="..." style="padding: 0px;">
+        </div>
+        <div class="col-12 text-start " style="padding-left: 0px;">
+            <b>23 likes</b>
+            <p class="col-12 text-start id="posttext" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et </p>
+        <div class="row col-12 g-1 h-25" style="height: auto;">
+            <i class="fa-regular fa-heart col-1 text-start"></i><p class="col-10 text-start" id="muted">comment...</p><i class="fa-solid fa-ellipsis-vertical col-1 text-end" style="padding-right: 5px;"></i>
+        </div>
+        
+        
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="form-floating">
+                    <textarea class="" placeholder="" id="floatingTextarea"></textarea>
+                    <label for="floatingTextarea"></label>
+                </div>
+            </div>
+            <div class="modal-body">
+                <i class="fa-solid fa-camera"></i> <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary"
+                    data-bs-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-success">Publish</button>
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+textarea {
+    width: 765px;
+    height: 50px;
+}
+
+.modal-body i {
+    padding: 5px;
+    background-color: rgb(206, 175, 175);
+}
+
+.container .navbar-brand {
+    font-family: 'Lobster', cursive;
+}
+
+#botonlink {
+    padding: 15px;
+    margin-top: 0px;
+    
+}
+
+#cambio {
+    border-radius: 10px;
+}
+
+.fs-4 {
+    padding: 5px;
+}
+
+.card-footer {
+    padding: opx;
+}
+
+p {
+    margin: 0px;
+}
+

@@ -1,0 +1,82 @@
+textarea {
+    width: 765px;
+    height: 50px;
+}
+
+.modal-body i {
+    padding: 5px;
+    background-color: rgb(206, 175, 175);
+}
+
+.container .navbar-brand {
+    font-family: 'Lobster', cursive;
+}
+
+#botonlink {
+    padding: 15px;
+    margin-top: 0px;
+    
+}
+
+#cambio {
+    border-radius: 10px;
+}
+
+.fs-4 {
+    
+    padding-left: 5px;
+}
+
+#muted {
+    color: grey;
+    margin: 0px;
+}
+
+#posttext {
+    margin-bottom: 0px;
+    
+}
+
+.col-12 .row {
+    margin: 0px;
+}
+
+.card-footer{
+    padding: 0px ;
+}
+
+.card {
+    
+    border-radius: 5px;
+}
+
+.background {
+    background-color: rgb(255, 238, 238);
+    padding: 30px;
+    margin: 0px;
+}
+
+.fa-ellipsis-vertical {
+    padding-right: 25px;
+}
+
+.fa-heart {
+    padding-left: 5px;
+}
+
+body {
+    background-color: rgb(230, 215, 215);
+}
+
+.bodycar .col-12 {
+    text-align: center;
+}
+
+#margin0 {
+    margin: auto;
+}
+
+.bodycar .col-12 {
+    margin: 0px;
+}
+
